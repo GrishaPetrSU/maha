@@ -11,3 +11,7 @@ double MyDiv(double a, double b)
 	if (b == 0) 
 		return 0;
 }
+double MyPow(double a)
+{
+	return a*a;
+}

@@ -17,13 +17,13 @@ int main()
 	cin » n; 
 	switch (n)
 	case '1':
-	cout << MySum(n) << endl;	
+	cout << MySum(a,b) << endl;	
 	case '2':
-	cout << MySub(n) << endl;
+	cout << MySub(a,b) << endl;
 	case '3':
-	cout << MyMul(n) << endl;
+	cout << MyMul(a,b) << endl;
 	case '4':
-	cout << MyDiv(n) << endl;
+	cout << MyDiv(a,b) << endl;
 	return 0;
 }
 	system("pause"); 
